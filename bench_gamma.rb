@@ -13,7 +13,7 @@ end
 include Benchmark
 
 bmbm(30) do |bm|
-  N = ARGV[0].to_i || 1_000_000
+  N = ARGV[0].nil? ? 1_000_000 : ARGV[0].to_i
   bm.report("pure_java") {
     N.times { x = Math.gamma(0.5) }
   }
