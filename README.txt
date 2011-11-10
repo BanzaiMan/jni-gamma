@@ -13,7 +13,7 @@ To use:
   java Example
 
 Note: if you want to be sure that tgamma() is returning a reasonable
-value, try tgamma(5.0) = 6! = 720, tgamma(0.5)**2 = Math.Pi()
+value, try tgamma(5.0) = 4! = 24, tgamma(0.5)**2 = Math.Pi()
 
 For comparison, we do the same with (J)Ruby, using FFI. For MRI, you
 would need to require 'rubygems' as well.
