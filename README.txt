@@ -19,3 +19,6 @@ For comparison, we do the same with (J)Ruby, using FFI. For MRI, you
 would need to require 'rubygems' as well.
 
 Note: In Ruby 1.9, the gamma function is available as 'Math::gamma'.
+
+bench_gamma.rb compares the performance of 3 methods. Be sure to run it
+in the 1.9 mode.
